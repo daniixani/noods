@@ -34,7 +34,7 @@
 			'It is a good day to have a good day.',
 			'Yo hablo espanol. Que tengas un buen dia.',
 			'Zoodini is tired darling, try again later.',
-			'Zpv tvdl. Decode it.', "Get bitches in life", "Men ain't shit", "Love is overated."
+			'Zpv tvdl. Decode it.', "Your car will be scatched.", "The grass isn't greener", "You are loved."
 		];
 		console.log(fortunes);
 		let i = Math.round(Math.random() * (fortunes.length - 1));
@@ -48,7 +48,7 @@
 <img src="/paper_fortune.png" />
 
 <br />
-<input bind:value={name} input placeholder="Enter your name" />
+<input bind:value={name} placeholder="Enter your name" />
 <button class="text" on:click={getFortune}> Get Fortune </button>
 <h2 class="text">CLICK IF YOU DARE!</h2>
 <h2 class="text">{fortune}</h2>
